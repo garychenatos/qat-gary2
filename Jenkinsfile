@@ -9,5 +9,5 @@
 * Description: Load the main Jenkinsfile from within the ci shared-library
 *              @Library('ci') _
 */
-Library('ci@qlmci2') _
+@Library('ci@qlmci2') _
 jenkinsfile3('myqlm-simulators')
